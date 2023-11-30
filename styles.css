@@ -1,0 +1,29 @@
+.nav {
+    list-style: none;
+
+    width: 50vw;
+
+    padding-left: 0;
+    margin: auto;
+    text-align: center;
+    border-style: dashed;
+}
+
+    .nav>li {
+        border-style: outset;
+        display: inline-block;
+    }
+
+    .nav>li>a {
+        text-decoration: none;
+        color: aqua;
+    }
+
+    .nav>li>a:hover {
+        background-color: black;
+    }
+
+h1 {
+    color: chartreuse;
+    font-family: sans-serif;
+}
